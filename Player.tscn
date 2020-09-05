@@ -38,3 +38,4 @@ __meta__ = {
 position = Vector2( 7.62939e-06, -0.943874 )
 scale = Vector2( 0.5, 0.5 )
 shape = SubResource( 2 )
+[connection signal="body_entered" from="." to="." method="_on_Player_body_entered"]
